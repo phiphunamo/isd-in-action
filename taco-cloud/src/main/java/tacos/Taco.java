@@ -37,7 +37,7 @@ public class Taco {
     this.ingredients.add(ingredient);
   }
 
-    public BigDecimal getTotalPrice() {
+  public BigDecimal getTotalPrice() {
     BigDecimal total = BigDecimal.ZERO;
     if (ingredients != null) {
       for (Ingredient ingredient : ingredients) {
